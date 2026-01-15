@@ -3,6 +3,12 @@
 ## Analysis pipeline 
 Code: Step2_Inst_Freq_Navon.m
 
+## Contrasts
+Can we 
+contrast the two conditions only using alpha frequency?
+
+
+
 ### Notes:
 I used the FOOOF algorith om the average of this ROI to estimate peak alpha frequency:</br>
 roi = {'FC1', 'FC2', 'FC3', 'FC4','FC5', 'FC6', 'C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'Cz', 'CP1', 'CP2', 'CP3', 'CP4', 'CP5', 'CP6', 'CPz', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9', 'P10', 'Pz', 'PO3', 'PO4', 'PO7', 'PO8', 'POz', 'O1', 'O2', 'Oz', 'Iz'};</br>
@@ -16,3 +22,6 @@ This minimizes frequency locking to the S-band edges.
 Small S-band mis-centering (6–12 vs 7–13) rarely changes the selected component.
 If the component peak shifts, it’s usually because a different generator was selected, not because the frequency was nudged.
 This is exactly what you want when you’re worried about biasing alpha frequency.
+
+SHould we repick the peak after GED? Look at PP32 for example
+Check PP30
